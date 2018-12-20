@@ -73,7 +73,15 @@ insert mode 下面的一些键位:
 - `gcmsg [message]` git commit -m "[message]"
 - `gp` git push
 - `gpoat` git push origin --all && git push origin --tags
+- `ga .` git add . 提交当前目录的所有文件到暂存区
 
+提交一个文件命令
+```git
+cd 当前目录
+ga .
+gcmsg "update:
+gp
+```
 
 ## 分屏的操作
 
