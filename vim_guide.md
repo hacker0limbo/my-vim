@@ -15,6 +15,16 @@
 - c-r redo
 - :e + <路径> 打开文件
 
+文件查看
+- c-f 向下翻一整页
+- c-b 向上翻一整页
+- c-d 向下翻半页 d = down
+- c-u 向上翻半页 u = up
+- gg 回到文件顶部, (n)gg 跳转到第几行, n 表示页数
+- G 回到文件底部
+- :n 跳转到第几行
+- c-g 查看当前光标所在行
+
 ### insert 模式下的快捷键
 
 - c-h 删除光标左边的一个字母, 等于 backspace
@@ -48,12 +58,21 @@ insert mode 下面的一些键位:
 参考: http://vimdoc.sourceforge.net/htmldoc/insert.html
 
 
-## NerdTree
+## 插件
+
+### NerdTree
 
 - 按 ? 查看所有按键
 - 按`Enter`在新标签栏打开(new tab)
 - 按`s`在垂直window打开
 - 按`I`打开隐藏文件
+
+### git (oh-my-zsh)
+
+- `gst` git status
+- `gcmsg [message]` git commit -m "[message]"
+- `gp` git push
+- `gpoat` git push origin --all && git push origin --tags
 
 
 ## 分屏的操作
