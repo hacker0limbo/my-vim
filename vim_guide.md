@@ -90,6 +90,16 @@ gp
 
 > 一个 tab 下面打开多个文件分屏, 可以 1: 在 nerd tree 按 `s`, 2: `c-w v`在 nerdtree 里面双击想要的文件替换当前文件
 
+## 打开终端
+vim 8.0 以后增加了终端的功能
+
+- `:term` 在顶部打开终端
+- `:bo ter` 在底部打开终端
+
+## 打开 welcome 界面
+
+- `:intro`
+
 ## reference
 - http://vimdoc.sourceforge.net/htmldoc/insert.html
 - https://coolshell.cn/articles/1679.html
