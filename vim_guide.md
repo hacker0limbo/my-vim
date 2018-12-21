@@ -8,6 +8,7 @@
 - 打开 tagbar 文件树预览: c-t
 - 保存文件: :w
 - 退出文件: :q!
+- `:message` 打印日志
 
 ### normal 模式下快捷键
 
@@ -82,6 +83,19 @@ ga .
 gcmsg "update:
 gp
 ```
+
+### 自动补全
+vim 有几种补全方式, 可以使用`:help ins-completion`查看命令, 常用的补全模式为`omni completion`
+由于安装了另一个补全插件 `vim-tern`, 用于补全 js, 因此补全功能更加多.
+
+- `c-x c-o`打开 omni completion, enter 键选中想要的补全
+- c-e 结束本次补全
+
+### python
+
+补全插件使用 `jedi-python`, 但是使用 homeberw 安装最新的 vim 以后出现解析问题, [issue](https://github.com/davidhalter/jedi-vim/issues/894)
+等待作者修复中
+
 
 ## 分屏的操作
 
