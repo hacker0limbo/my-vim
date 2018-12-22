@@ -26,6 +26,12 @@
 - :n 跳转到第几行
 - c-g 查看当前光标所在行
 
+转换 buffer
+vim 里面一个 session 可以打开多个 buffer, 可以互相转换, 比如
+- `:bn`下一个 buffer
+- `:bp`上一个 buffer
+- `:buf NUMBER` 指定跳转到 buffer
+
 ### insert 模式下的快捷键
 
 - c-h 删除光标左边的一个字母, 等于 backspace
@@ -55,8 +61,7 @@ emacs 的一些快捷键自定义绑定:
 	- nore 表示不递归, 例`inoremap y y`不会出现无限循环
 	- map 表示映射
 
-insert mode 下面的一些键位:
-参考: http://vimdoc.sourceforge.net/htmldoc/insert.html
+insert mode 下面的一些键位: http://vimdoc.sourceforge.net/htmldoc/insert.html
 
 
 ## 插件
