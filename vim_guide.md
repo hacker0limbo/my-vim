@@ -4,7 +4,7 @@
 
 - 切换到 normal 模式: c-c (esc)
 - 切换到输入模式: i
-- 打开 nerdTree: c-n
+- 打开 nerdTreie: c-n
 - 打开 tagbar 文件树预览: c-t
 - 保存文件: :w
 - 退出文件: :q!
@@ -14,7 +14,8 @@
 
 - u 撤销
 - c-r redo
-- :e + <路径> 打开文件
+- `:e [路径]` 打开文件 (可以用作创建新文件, 采用绝对路径)
+- `:pwd`查看当前文件所在目录
 
 文件查看
 - c-f 向下翻一整页
@@ -68,10 +69,13 @@ insert mode 下面的一些键位: http://vimdoc.sourceforge.net/htmldoc/insert.
 
 ### NerdTree
 
+- 光标在一个文件上以后选中`m`打开操作选项, 可以进行删除等操作
 - 按 ? 查看所有按键
 - 按`Enter`在新标签栏打开(new tab)
 - 按`s`在垂直window打开
 - 按`I`打开隐藏文件
+- `r`刷新当前目录文件(当创建了一个新文件的时候)
+- `c-w [h/j/k/l]`鼠标移动到不同的屏幕, h 为左, l 为右, j 为下, k 为上
 
 ### git (oh-my-zsh)
 
