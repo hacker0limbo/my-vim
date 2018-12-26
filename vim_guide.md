@@ -119,6 +119,14 @@ vim 8.0 以后增加了终端的功能
 - `:term` 在顶部打开终端
 - `:bo ter` 在底部打开终端
 
+可以在终端中运行文件, 例如 bash, 如下:
+
+```bash
+:term {bash} 这里 bash 为你自己的 shell 解释器
+chomd +x ./test.sh #  增加执行权限
+./test.sh # 注意使用 ./ 开头, 否则回去 root 路径寻找
+```
+
 ## 打开 welcome 界面
 
 - `:intro`
